@@ -3,11 +3,16 @@ async def add_game_helper(ctx, game_name):
     if not is_game_new(ctx, name):
         return
 
+    # get confirmation from user that name is correct
     await ctx.channel.send('are you sure you want to add {}'.format(name))
-    # create_roles(name)
-    # create_announcement_channel(name)
-    # create_general_channel(name)
-    # create_feedback_channel(name)
+    # TODO get confirmation
+    confirmation = True
+
+    if confirmation:
+        create_roles(name)
+        create_announcement_channel(name)
+        create_general_channel(name)
+        create_feedback_channel(name)
 
 
 def format_game_name(game_name):
@@ -27,16 +32,16 @@ def is_game_new(ctx, game_name):
 
 
 def create_roles(game_name):
-    pass
+    pass    # TODO
 
 
 def create_announcement_channel(game_name):
-    pass
+    pass    # TODO
 
 
 def create_general_channel(game_name):
-    pass
+    pass    #TODO
 
 
 def create_feedback_channel(game_name):
-    pass
+    pass    #TODO
