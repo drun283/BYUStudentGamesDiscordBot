@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c88d21ef-b7f7-47da-9a00-27f52b2e5c21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sarpboi/helper/clear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sarpboi/helper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarpboi/helper/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sarpboi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarpboi/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +27,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572841401411</updated>
       <workItem from="1572841402850" duration="14666000" />
+      <workItem from="1572887111472" duration="327000" />
     </task>
     <servers />
   </component>
@@ -93,7 +98,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

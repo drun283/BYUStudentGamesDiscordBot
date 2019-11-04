@@ -2,6 +2,7 @@ from pathlib import Path
 
 from discord.ext import commands
 from sarpboi.helper.add_game import add_game_helper
+from sarpboi.helper.clear import clear_helper
 
 TOKEN = Path('token').read_text()
 GUILD = 'BYU Student Games'
@@ -24,6 +25,7 @@ async def global_check(ctx):
 
 #@bot.on_command_error
 #async def on_command_error(exception):
+# have this handle error from the global check
 #    print('error')
 
 
@@ -31,7 +33,7 @@ async def global_check(ctx):
 @commands.has_role('Admin')
 async def add_game(ctx, *args):
     '''
-    Creates channels and roles for new games. This can only be called by an Admin.
+    Creates channels and roles for new games. Can only be called by an Admin.
     '''
     game_name = ' '.join(args)
     await add_game_helper(ctx, game_name)
@@ -40,7 +42,10 @@ async def add_game(ctx, *args):
 @bot.command(name='clear')
 @commands.has_role('Admin')
 async def clear(ctx):
-    await ctx.channel.purge()
+    '''
+    Clears commands and bot messages in this channel. Can only be called by an Admin.
+    '''
+    await clear_helper(ctx)
 
 
 bot.run(TOKEN)
