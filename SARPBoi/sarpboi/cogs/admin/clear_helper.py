@@ -1,4 +1,4 @@
-from sarpboi.global_vars import COMMAND_STRING
+from global_vars import COMMAND_STRING
 
 
 async def clear_helper(ctx):

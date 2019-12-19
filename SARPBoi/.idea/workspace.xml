@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c88d21ef-b7f7-47da-9a00-27f52b2e5c21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sarpboi/cogs/admin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sarpboi/cogs/admin/admin_cog.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sarpboi/cogs/admin/clear_helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sarpboi/global_vars.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sarpboi/helper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarpboi/cogs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sarpboi/helper/add_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarpboi/cogs/admin/add_game_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sarpboi/helper/clear.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sarpboi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sarpboi/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +87,7 @@
       <workItem from="1572841402850" duration="14666000" />
       <workItem from="1572887111472" duration="327000" />
       <workItem from="1572897221436" duration="5046000" />
+      <workItem from="1573085117216" duration="274000" />
     </task>
     <servers />
   </component>

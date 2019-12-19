@@ -1,8 +1,8 @@
 from discord.ext import commands
 
-from sarpboi.cogs.admin.add_game_helper import add_game_helper
-from sarpboi.cogs.admin.clear_helper import clear_helper
-from sarpboi.global_vars import ADMIN
+from cogs.admin.add_game_helper import add_game_helper
+from cogs.admin.clear_helper import clear_helper
+from global_vars import ADMIN
 
 
 class AdminCog(commands.Cog):

@@ -2,7 +2,7 @@ from pathlib import Path
 
 from discord.ext import commands
 
-from sarpboi.global_vars import COMMAND_STRING
+from global_vars import COMMAND_STRING
 
 TOKEN = Path('token').read_text()
 
